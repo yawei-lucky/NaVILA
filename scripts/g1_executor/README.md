@@ -13,6 +13,24 @@
 python scripts/g1_executor/watchdog_sim.py --timeout-ms 200 --demo
 ```
 
+最小执行器（可复用已有指令下发封装）：
+
+```bash
+python scripts/g1_executor/motion_executor.py --demo --timeout-ms 200
+```
+
+对接模板（Holosoma / SDK2）：
+
+```bash
+python scripts/g1_executor/dispatcher_templates.py
+```
+
+实机联通前，先在 Linux 控制机做快速体检（需传入 G1 IP）：
+
+```bash
+bash scripts/g1_executor/check_linux_env.sh <G1_IP>
+```
+
 如果进入交互模式：
 
 ```bash
