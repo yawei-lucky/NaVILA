@@ -33,6 +33,17 @@ NaVILA is a two-level framework that combines VLAs with locomotion skills for na
 - [x] Release YouTube Human Touring dataset. (around June 30th)
 - [x] Release Isaac Sim evaluation, please see [here](https://github.com/yang-zj1026/NaVILA-Bench).
 
+## 🦿 G1 Bring-up Notes (Minimal Executor Track)
+
+For users who want to first land a minimal G1 motion executor (`forward / turn / stop`) before integrating VLA:
+
+- Plan document: `./G1_MIN_EXECUTOR_PLAN.md`
+- Day-1 checklist: `./docs/g1/PHASE1_DAY1_CHECKLIST.md`
+- Day-1 real-robot runbook: `./docs/g1/DAY1_REAL_ROBOT_RUNBOOK.md`
+- First-step code plan: `./docs/g1/FIRST_STEP_EXECUTION_PLAN.md`
+- First-step final scheme: `./docs/g1/FINAL_FIRST_STEP_PLAN.md`
+- Safety watchdog simulator: `./scripts/g1_executor/watchdog_sim.py`
+
 ## 🚀 Training
 ### Installation
 To build environment for training NaVILA, please run the following:
